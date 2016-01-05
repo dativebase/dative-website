@@ -1,0 +1,184 @@
+html
+{
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  height: 2000px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #fff9e5;
+  min-width: 1200px;
+}
+
+
+#titlebar:hover
+{
+  cursor: pointer;
+}
+
+#titlebar
+{
+  border-bottom: 1px solid #494437;
+}
+
+#bottombar
+{
+  border-top: 1px solid #494437;
+}
+
+#titlebar,
+#bottombar
+{
+  padding: 0.75em;
+  height: 2em;
+  color: #ffffff;
+  background: #817865 url("/images/ui-bg_gloss-wave_45_817865_500x100.png") 50% 50% repeat-x;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+span.navitem
+{
+  padding: 0.5em;
+}
+
+#titlebar > div
+{
+  margin-left: auto;
+  margin-right: 15%;
+}
+
+#titlebar > div > div
+{
+  display: inline-block;
+  color: white;
+  padding: 1em;
+  font-size: 20px;
+}
+
+#titlebar div:hover
+{
+  cursor: pointer;
+}
+
+#titlebar h1
+{
+  letter-spacing: 3px;
+  font-weight: normal;
+  display: inline-block;
+  font-size: 40px;
+}
+
+#logo
+{
+  text-align: center;
+  position: absolute;
+  top: 5em;
+  left: 9em;
+  width: 15em;
+  /*border: 1px solid black;*/
+  z-index: 100;
+}
+
+#logo div
+{
+  display: block;
+}
+
+#logo-text
+{
+  color: #4c3000;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 0.5em;
+}
+
+#logo:hover
+{
+  cursor: pointer;
+}
+
+#logo img
+{
+  width: 300px;
+}
+
+#sidebar
+{
+  /*border-right: 1px solid #eeb420;*/
+  color: #1f1f1f;
+  background-color: #fff9e5;
+  max-width: 30%;
+  min-width: 30%;
+  min-height: 100%;
+  height: 100%;
+  z-index: 1;
+  display: inline-block;
+  float: left;
+}
+
+#content
+{
+  background-color: #feeebd;
+  color: #383838;
+  /*border-color: #8e846b;*/
+  border-color: #eeb420;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  padding: 2em 7em;
+  width: 40%;
+  display: inline-block;
+  height: 100%;
+}
+
+span.snippet
+{
+  font-family: monospace;
+}
+
+ul.faq li
+{
+}
+
+div.faq-q:hover
+{
+  cursor: pointer;
+}
+
+div.faq-a
+{
+  display: none;
+  border: 1px solid grey;
+  background-color: #d4d4d4;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 0 0.5em;
+  margin-bottom: 1em;
+}
+
+div.faq-a p
+{
+  margin: 0.5em 0;
+}
+
+.faq-show-all,
+.faq-hide-all
+{
+  margin-right: 1em;
+}
+
+
+
