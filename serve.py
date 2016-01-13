@@ -27,7 +27,7 @@ class HandlerClass(SimpleHTTPRequestHandler):
 
     """
     def do_GET(self):
-        if self.path in ['/screencasts', '/apps', '/faq', '/doc', '/api']:
+        if self.path in ['/getstarted', '/faq', '/addingupdating', '/searching']:
             self.path = '/'
         return SimpleHTTPRequestHandler.do_GET(self)
 

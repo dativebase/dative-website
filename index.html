@@ -17,23 +17,18 @@
 
       <div>
 
-        <div class='mi' data-page='screencasts'>
-          <i class="fa fa-video-camera"></i>
-          <span class="navitem">Screencasts</span>
+        <div class='mi' data-page='getstarted'>
+          <i class="fa fa-arrow-circle-right"></i>
+          <span class="navitem">Getting Started</span>
         </div>
 
         <div class='mi' data-page='faq'>
           <span class="navitem">FAQ</span>
         </div>
 
-        <div class='mi' data-page='doc'>
+        <div class='mi' data-page='getstarted'>
           <i class="fa fa-file-o"></i>
           <span class="navitem">Documentation</span>
-        </div>
-
-        <div class='mi' data-page='source'>
-          <i class="fa fa-github"></i>
-          <span class="navitem">Source</span>
         </div>
 
       </div>
@@ -42,9 +37,9 @@
 
     <div id="logo">
       <div>
-        <img src="images/Dative-logo-transp.png" alt="Dative logo">
+        <img src="images/dative-logo-transp.png" alt="Dative logo">
       </div>
-      <div id="logo-text">DATIVE</div>
+      <!-- <div id="logo-text">DATIVE</div> -->
     </div>
 
     <div id="sidebar">
@@ -52,267 +47,396 @@
 
     <div id="content">
 
-      <div id="pages">
+      <div id="rowwrapper">
 
-        <div class="page" id="about">
+        <div id="innersidebar">
 
-          <h1>Dative</h1>
+          <div class="innersidebarspacer"></div>
 
-          <p>Dative is software for linguistic fieldwork.</p>
+          <div class="major">
+            <i class="fa fa-file-o"></i>
+            Documentation
+          </div>
 
-          <h2>Features</h2>
+          <div class="sideitem" data-page='getstarted'>
+            Getting Started
+          </div>
 
-          <ul>
-            <li>Collaboration and data sharing</li>
-            <li>Advanced and smart search</li>
-            <li>Automatic morpheme cross-referencing</li>
-            <li>Interface for building morphological parsers and phonologies</li>
-            <li>CSV import</li>
-            <li>Text creation</li>
-            <li>Media file (i.e., audio, video, image)-to-text association.
-            <li>User access control</li>
-            <li>Documentation</li>
-            <li>Open source</li>
-          </ul>
+          <div class="sideitem" data-page='addingupdating'>
+            Adding &amp; Updating
+          </div>
 
-        </div>
+          <div class="sideitem" data-page='searching'>
+            Searching
+          </div>
 
-        <div class="page" id="screencasts" style="display:none;">
+          <div class="major">
+            More
+          </div>
 
-          <h1>Dative: Get Started screencast</h1>
-
-          <p>This will contain a screencast describing how to use Dative.</p>
-
-        </div>
-
-
-        <div class="page" id="apps" style="display:none;">
-
-          <h1>Language-specific OLD Applications</h1>
-
-          <p>The following seven languages are being collaboratively documented
-            and analyzed using the <a
-            href="https://github.com/jrwdunham/old">OLD</a>. These applications
-            are accessible via any Dative user interface, including the one
-            being served at <a
-            href="https://www.dative.ca">www.dative.ca</a>.</p>
-
-          <ol>
-            <li><a href="https://kut.old.jrwdunham.com"
-                target="_blank">Kutenai (kut)</a></li>
-            <li><a href="https://projects.linguistics.ubc.ca/morold/"
-                target="_blank">Moro (mor)</a></li>
-            <li><a href="https://projects.linguistics.ubc.ca/cacold/"
-                target="_blank">Chuj (cac)</a></li>
-            <li><a href="https://projects.linguistics.ubc.ca/kabold/"
-                target="_blank">Kabyle (kab)</a></li>
-            <li><a href="https://projects.linguistics.ubc.ca/batumi_kartuliold/"
-                target="_blank">Kartuli (kat)</a></li>
-            <li><a href="https://projects.linguistics.ubc.ca/rkmold/"
-                target="_blank">Marka (rkm)</a></li>
-            <li><a href="https://projects.linguistics.ubc.ca/khmold/"
-                target="_blank">Khmer (khm)</a></li>
-          </ol>
-
-          <p>The following nine languages are being collaboratively documented
-            and analyzed using OLD web applications running on <a
-            href="https://github.com/jrwdunham/old-webapp">version 0.2</a> of
-          the software.<sup>*</sup></p>
-
-          <ol>
-            <li><a href="http://bla.old.linguistics.ubc.ca/"
-                target="_blank">Blackfoot (bla)</a></li>
-            <li><a href="http://oka.old.linguistics.ubc.ca/"
-                target="_blank">Okanagan (oka)</a></li>
-            <li><a href="http://crk.old.linguistics.ubc.ca/"
-                target="_blank">Plains Cree (crk)</a></li>
-            <li><a href="http://kwk.old.linguistics.ubc.ca/"
-                target="_blank">Kwak'wala (kwk)</a></li>
-            <li><a href="http://ntk.old.linguistics.ubc.ca/"
-                target="_blank">Nata (ntk)</a></li>
-            <li><a href="http://git.old.linguistics.ubc.ca/"
-                target="_blank">Gitksan (git)</a></li>
-            <li><a href="http://crd.old.linguistics.ubc.ca/"
-                target="_blank">Coeur d'Alene (crd)</a></li>
-            <li><a href="http://sna.old.linguistics.ubc.ca/"
-                target="_blank">Shona (sna)</a></li>
-            <li><a href="http://byv.old.linguistics.ubc.ca/"
-                target="_blank">Medumba</a></li>
-          </ol>
-
-          <p><sup>*</sup>Dative version 0.2 is a different piece of software
-          from Dative (version 1). The above nine applications will be
-          migrated to a Dative/OLD system using OLD v. 1 in the near future.</p>
+          <div class="sideitem" data-page='faq'>
+            Frequently Asked Questions
+          </div>
 
         </div>
 
+        <div id="pages">
 
-        <div class="page" id="faq" style="display:none;">
+          <div class="page" id="about">
 
-          <h1>Frequently Asked Questions</h1>
+            <h1>Dative</h1>
 
-          <a class="faq-show-all" href="javascript:void(0)">show all</a>
-          <a class="faq-hide-all" href="javascript:void(0)">hide all</a>
+            <p>Dative is software for linguistic fieldwork.</p>
 
-          <ul class="faq">
+            <h2>Features</h2>
 
-            <li>
-              <div class="faq-q">How can I use Dative to document my
-                language?</div>
-              <div class="faq-a">
-                <p>If a group is already using Dative to document your
-                language, you can ask an administrator of that OLD for access.
-                Otherwise, you can install and serve your own OLD on a web
-                server.</p>
-              </div>
-            </li>
+            <ul class="features-list">
+              <li>Collaboration and data sharing</li>
+              <li>Advanced and smart search</li>
+              <li>Automatic morpheme cross-referencing</li>
+              <li>Build morphological parsers and phonologies</li>
+              <li>CSV import</li>
+              <li>Text creation</li>
+              <li>Media file (i.e., audio, video, image)-to-text association.
+              <li>User access control</li>
+              <li>Documentation</li>
+              <li>Open source</li>
+            </ul>
 
-            <li>
-              <div class="faq-q">Do I need to know how to build a web site in
-                order to use Dative?</div>
-              <div class="faq-a">
-                <p>We are working on a single-click installer for Dative (and
-                for Dative/OLD systems). Check back soon.</p>
+            <h2>Screenshot</h2>
 
-                <p>At present, in order to download, install, and serve an
-                OLD you will need a basic understanding of the Linux/Unix
-                command line. The <a
-                href="https://github.com/jrwdunham/buildold/">Build OLD</a>
-                project contains install and build/serve scripts that may help
-                you. Currently these scripts only work on Ubuntu servers.</p>
-              </div>
-            </li>
+            <img class="screenshot" src="images/dative-screenshot-splash.png"
+              alt="screenshot of Dative">
 
-            <li>
-              <div class="faq-q">Is there a demo?</div>
-              <div class="faq-a">
-                <p>Not yet. We will be releasing a demo Dative/OLD soon so you
-                can play around with it.</p>
-              </div>
-            </li>
-
-            <li>
-              <div class="faq-q">What is Dative and how is it different from
-                Dative?</div>
-              <div class="faq-a">
-                <p><a href="http://www.dative.ca">Dative</a> is a graphical
-                user interface (GUI) that works with Dative. Dative makes it
-                easy for people (who aren't programmers) to work with the
-                OLD.</p>
-
-                <p>Dative is software for building web services. An OLD web
-                service is designed so that programs (and programmers) can talk
-                to it. If you are a non-technical user, then you will probably
-                want to use Dative with a Dative interface.</p>
-              </div>
-            </li>
-
-            <li>
-              <div class="faq-q">Can I use Dative offline, i.e., in the
-                field?</div>
-              <div class="faq-a">Not yet. Offline functionality is a planned
-                feature. Check back soon.</div>
-            </li>
-
-            <li>
-              <div class="faq-q">Does it have documentation?</div>
-              <div class="faq-a">Yes. See the <a
-                href="http://online-linguistic-database.readthedocs.org"
-                target="blank_">OLD Documentation</a>. See also <a
-                href="https://open.library.ubc.ca/cIRcle/collections/24/items/1.0165582"
-                target="blank_">Dunham (2014)</a>.</div>
-            </li>
-
-            <li>
-              <div class="faq-q">Does it have a graphical interface?</div>
-              <div class="faq-a">
-                <p>Yes, see <a href="http://www.dative.ca">Dative</a>.</p>
-              </div>
-            </li>
-
-            <li>
-              <div class="faq-q">How can I migrate my data to Dative?</div>
-              <div class="faq-a">
-                <p>You can use Dative's <a href="javascript:void(0)"
-                  class="mi" data-page="api">RESTful JSON API</a> to
-                programmatically upload your existing data structures to the
-                OLD.</p>
-
-                <p>If your data are stored on a LingSync corpus, the
-                <a href="https://github.com/jrwdunham/lingsync2old"
-                  target="blank_">LingSync-to-OLD</a> migrator program may work
-                for you.</p>
-
-              </div>
-
-            </li>
-
-            <li>
-              <div class="faq-q">Is it open source? How do I get the code?</div>
-              <div class="faq-a">
-                <p>Yes, Dative is open source and is licenced under <a
-                  href="http://www.apache.org/licenses/LICENSE-2.0"
-                  target="blank_">Apache License 2.0</a>. Its source code is
-                  available on <a href="https://github.com/jrwdunham/old"
-                  target="blank_">GitHub</a>.</p>
-              </div>
-            </li>
-
-            <li>
-              <div class="faq-q">How do I install it?</div>
-              <div class="faq-a">
-                <p>For detailed instructions on installing Dative as well as
-                  its soft dependencies, see the <a
-                  href="http://online-linguistic-database.readthedocs.org/en/latest/installation.html#installation-configuration"
-                  target="blank_">Documentation</a> or the <a
-                  href="https://github.com/jrwdunham/buildold/blob/master/installold.py"
-                  target="blank_">Ubuntu install script</a>.</p>
-
-                <p>For the impatient, either <span class="snippet">pip install
-                  onlinelinguisticdatabase</span> or <span
-                  class="snippet">easy_install onlinelinguisticdatabase</span>
-                  should work.</p>
-              </div>
-
-            </li>
-
-            <!-- <li>
-              <div class="faq-q">When I browse to an OLD URL, I see <span
-                class="snippet">{"error": "The resource could not be
-                found."}</span>. What does this mean?</div>
-              <div class="faq-a">TODO.</div>
-            </li>
-            -->
-
-          </ul>
-
-        </div>
+          </div>
 
 
-        <div class="page" id="doc" style="display:none;">
+          <div class="page" id="getstarted" style="display:none;">
 
-          <h1>Documentation</h1>
+            <h1>Getting Started</h1>
 
-          <ul>
-            <li><a href="http://online-linguistic-database.readthedocs.org/"
-              target="blank_">The Official OLD documentation</a></li>
-            <li><a href="https://open.library.ubc.ca/cIRcle/collections/24/items/1.0165582"
-              target="blank_">Dunham (2014)</a> is a PhD dissertation that
-              describes and argues for Dative. It was written by Dative's
-              <a href="http://www.jrwdunham.com" target="blank_">primary
-              developer</a>.
-            </li>
-          </ul>
+            <p>These screencasts will show you the basics of working with
+            Dative: logging in, browsing forms and working with servers.</p>
 
-        </div>
+            <h2>Logging In</h2>
+
+            <p>This screencast shows you how to log in and out of servers
+            (i.e., OLD web services) using Dative.</p>
+
+            <div class="sccont">
+              <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/HM86gWVFkjo?rel=0"
+                frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <h2>Browsing Forms</h2>
+
+            <p>In this screencast, you will learn how to browse (linguistic)
+            forms and other resources (e.g., tags or collections).</p>
+
+            <div class="sccont">
+              <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/zey_AGvd6tc?rel=0"
+                frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <h2>Working With Servers</h2>
+
+            <p>This screencast shows how to work with server configurations;
+            that is, how to specify which OLD web services you want to connect
+            to.</p>
+
+            <div class="sccont">
+              <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/9ThhKvdREQ0?rel=0"
+                frameborder="0" allowfullscreen></iframe>
+            </div>
+
+          </div>
 
 
-        <div class="page" id="api" style="display:none;">
+          <div class="page" id="searching" style="display:none;">
 
-          <p>Dative exposes a RESTful API with data communicated in JSON
-          format. A simple overview will be provided here soon. For now, see
-          the <a href="http://online-linguistic-database.readthedocs.org/en/latest/interface.html#restful-api"
-          >documentation</a>.</p>
+            <h1>Searching</h1>
+
+            <p>This page will contain text, screenshots, and screencasts
+            showing how to search over resources in Dative.</p>
+
+          </div>
+
+
+          <div class="page" id="addingupdating" style="display:none;">
+
+            <h1>Adding &amp; Updating Resources</h1>
+
+            <p>This page will contain text, screenshots, and screencasts
+            showing how to create and update resources in Dative.</p>
+
+          </div>
+
+
+          <div class="page" id="apps" style="display:none;">
+
+            <h1>Language-specific OLD Applications</h1>
+
+            <p>The following seven languages are being collaboratively documented
+              and analyzed using the <a
+              href="https://github.com/jrwdunham/old">OLD</a>. These applications
+              are accessible via any Dative user interface, including the one
+              being served at <a
+              href="https://www.dative.ca">www.dative.ca</a>.</p>
+
+            <ol>
+              <li><a href="https://kut.old.jrwdunham.com"
+                  target="_blank">Kutenai (kut)</a></li>
+              <li><a href="https://projects.linguistics.ubc.ca/morold/"
+                  target="_blank">Moro (mor)</a></li>
+              <li><a href="https://projects.linguistics.ubc.ca/cacold/"
+                  target="_blank">Chuj (cac)</a></li>
+              <li><a href="https://projects.linguistics.ubc.ca/kabold/"
+                  target="_blank">Kabyle (kab)</a></li>
+              <li><a href="https://projects.linguistics.ubc.ca/batumi_kartuliold/"
+                  target="_blank">Kartuli (kat)</a></li>
+              <li><a href="https://projects.linguistics.ubc.ca/rkmold/"
+                  target="_blank">Marka (rkm)</a></li>
+              <li><a href="https://projects.linguistics.ubc.ca/khmold/"
+                  target="_blank">Khmer (khm)</a></li>
+            </ol>
+
+            <p>The following nine languages are being collaboratively documented
+              and analyzed using OLD web applications running on <a
+              href="https://github.com/jrwdunham/old-webapp">version 0.2</a> of
+            the software.<sup>*</sup></p>
+
+            <ol>
+              <li><a href="http://bla.old.linguistics.ubc.ca/"
+                  target="_blank">Blackfoot (bla)</a></li>
+              <li><a href="http://oka.old.linguistics.ubc.ca/"
+                  target="_blank">Okanagan (oka)</a></li>
+              <li><a href="http://crk.old.linguistics.ubc.ca/"
+                  target="_blank">Plains Cree (crk)</a></li>
+              <li><a href="http://kwk.old.linguistics.ubc.ca/"
+                  target="_blank">Kwak'wala (kwk)</a></li>
+              <li><a href="http://ntk.old.linguistics.ubc.ca/"
+                  target="_blank">Nata (ntk)</a></li>
+              <li><a href="http://git.old.linguistics.ubc.ca/"
+                  target="_blank">Gitksan (git)</a></li>
+              <li><a href="http://crd.old.linguistics.ubc.ca/"
+                  target="_blank">Coeur d'Alene (crd)</a></li>
+              <li><a href="http://sna.old.linguistics.ubc.ca/"
+                  target="_blank">Shona (sna)</a></li>
+              <li><a href="http://byv.old.linguistics.ubc.ca/"
+                  target="_blank">Medumba</a></li>
+            </ol>
+
+            <p><sup>*</sup>Dative version 0.2 is a different piece of software
+            from Dative (version 1). The above nine applications will be
+            migrated to a Dative/OLD system using OLD v. 1 in the near future.</p>
+
+          </div>
+
+
+          <div class="page" id="faq" style="display:none;">
+
+            <h1>Frequently Asked Questions</h1>
+
+            <a class="faq-show-all" href="javascript:void(0)">show all</a>
+            <a class="faq-hide-all" href="javascript:void(0)">hide all</a>
+
+            <ul class="faq">
+
+              <li>
+                <div class="faq-q">What is Dative?</div>
+                <div class="faq-a">
+                  <p>Dative is an application for linguistic fieldwork and
+                  language documentation. It helps you to organize, share, and
+                  analyze your language data. Importantly, Dative does not
+                  contain its own database; rather, it is an <i>interface</i> for
+                  existing database applications. At present, Dative can
+                  provide an interface to <a
+                  href="http://www.onlinelinguisticdatabase.org" target="blank_"
+                  >Online Linguistic Database (OLD)</a> web services.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-q">How can I use Dative to document my
+                  language?</div>
+                <div class="faq-a">
+
+                  <p>The easiest way to use Dative is to go to <a
+                  href="http://app.dative.ca" target="blank_">app.dative.ca</a>,
+                  click the lock icon (<i class="fa fa-fw fa-lock"></i>), choose
+                  an existing (OLD) server, and enter your username and password
+                  for that server.</p>
+
+                  <p>If you do not have access to an existing OLD server, you can
+                  request access to an existing one or create one yourself.
+                  Please contact <a href="javascript:void(0)" class="me">me</a>,
+                  if you would like to request access to an existing OLD or if
+                  you would like help with creating a new <a
+                  href="http://www.onlinelinguisticdatabase.org"
+                  target="blank_">OLD</a>.</p>
+
+                  <p>Note that you can serve both Dative and the OLD on your own
+                  server, if you want. Dative is just a static web site
+                  containing HTML, JavaScript and CSS, so it is very easy to
+                  install and serve. The OLD is somewhat more difficult to
+                  install, so detailed instructions can be found on the <a
+                  href="http://www.onlinelinguisticdatabase.org/install"
+                  target="blank_">OLD web site</a> and in the <a
+                  href="https://github.com/jrwdunham/buildold"
+                  target="blank_">Build OLD</a> project.</p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-q">Can I serve Dative on my own server?</div>
+                <div class="faq-a">
+                  <p>Yes. Dative is an open source project and its source code
+                  can be found on <a href="https://github.com/jrwdunham/dative"
+                  target="blank_">GitHub</a>. Assuming you have <a
+                  href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
+                  target="blank_">git</a>, <a
+                  href="https://nodejs.org/en/download/" target="blank_">node</a>
+                  and <a href="http://bower.io/#install-bower"
+                  target="blank_">Bower</a> installed, run the following commands
+                  (on a *nix system).</p>
+
+                  <div class="codehilite">
+                    <pre>
+  $ git clone https://github.com/jrwdunham/dative.git
+  $ cd dative
+  $ npm install
+  $ bower install
+  $ grunt build</pre>
+                  </div>
+
+                  <p>Then copy the files in the dist/ directory to your server.
+                  For example:</p>
+
+                  <div class="codehilite">
+                    <pre>
+    rsync -avz dist/ myserveralias:dative/</pre>
+                  </div>
+              </li>
+
+              <li>
+                <div class="faq-q">Is there a demo?</div>
+                <div class="faq-a">
+                  <p>Not quite yet. There is a “Demo OLD” that you can access from
+                  <a href="http://app.dative.ca"
+                  target="blank_">app.dative.ca</a>. However, at this point, it
+                  is not yet publicly accessible. Check back soon.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-q">Can I use Dative offline, i.e., in the
+                  field?</div>
+                <div class="faq-a">
+                  <p>Not easily. It is possible to install and run <a
+                  href="https://github.com/jrwdunham/dative"
+                  target="blank_">Dative</a> and the <a
+                  href="https://github.com/jrwdunham/old" target="blank_">OLD</a>
+                  on your own computer. However, at the present time there is no
+                  easy (single-click installer) for doing this. Such offline
+                  functionality is a planned feature, so check back soon.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-q">Does it have documentation?</div>
+                <div class="faq-a">
+                  <p>Yes. The web site that you are currently visiting
+                  has some <a href="javascript:void(0)" class='mi'
+                  data-page='doc'>documentation</a> and Dative itself has
+                  documentation built into it: go to <a
+                  href="http://app.dative.ca" target="blank_">app.dative.ca</a>
+                  and click on the <i class="fa fa-fw fa-question"></i> icon.</p>
+
+                  <p>For documentation on the OLD, see the <a
+                  href="http://www.onlinelinguisticdatabase.org/getstarted"
+                  target="blank_">OLD web site</a> and the <a
+                  href="http://online-linguistic-database.readthedocs.org"
+                  target="blank_">OLD technical documentation</a>.</p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-q">Can I migrate my existing fieldwork data into
+                  Dative?</div>
+
+                <div class="faq-a">
+                  <p>Dative's import feature currently allows you to import CSV
+                  (i.e., comma-separated values) files. To access Dative's
+                  import interface, log in to an OLD in Dative, navigate to the
+                  Browse Forms interface, and click on the “upload to
+                  server” icon, i.e., <i class="fa fa-fw fa-upload"></i>.
+                  <b>Note</b>: since this functionality is currently under
+                  active development, you shold contact the administrator of
+                  the OLD that you are connecting to prior to using this
+                  feature on a database that already has data in it.</p>
+
+                  <p>You can also upload your data programmatically to an OLD
+                  using its RESTful JSON API. For details on working with this
+                  API, see the <a
+                  href="http://www.onlinelinguisticdatabase.org/getstarted"
+                  target="blank_">OLD web site</a>.</p>
+
+                  <p>If your data are stored in a <a
+                  href="http://app.lingsync.org/" target="blank_">LingSync
+                  corpus</a>, the <a
+                  href="https://github.com/jrwdunham/lingsync2old"
+                  target="blank_">LingSync-to-OLD</a> migrator script may allow
+                  you to migrate your data.</p>
+
+                </div>
+
+              </li>
+
+              <li>
+                <div class="faq-q">Is it open source? How do I get the code?</div>
+                <div class="faq-a">
+                  <p>Yes, Dative is open source; its source code is
+                    available on <a href="https://github.com/jrwdunham/dative"
+                    target="blank_">GitHub</a>.</p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div class="page" id="doc" style="display:none;">
+
+            <h1>Documentation</h1>
+
+            <ul>
+              <li><a href="http://online-linguistic-database.readthedocs.org/"
+                target="blank_">The Official OLD documentation</a></li>
+              <li><a href="https://open.library.ubc.ca/cIRcle/collections/24/items/1.0165582"
+                target="blank_">Dunham (2014)</a> is a PhD dissertation that
+                describes and argues for Dative. It was written by Dative's
+                <a href="http://www.jrwdunham.com" target="blank_">primary
+                developer</a>.
+              </li>
+            </ul>
+
+          </div>
+
+
+          <div class="page" id="api" style="display:none;">
+
+            <p>Dative exposes a RESTful API with data communicated in JSON
+            format. A simple overview will be provided here soon. For now, see
+            the <a href="http://online-linguistic-database.readthedocs.org/en/latest/interface.html#restful-api"
+            >documentation</a>.</p>
+
+          </div>
 
         </div>
 
@@ -321,6 +445,12 @@
     </div>
 
     <div id="bottombar">
+
+        <div class='mi' data-page='source'>
+          <i class="fa fa-github"></i>
+          <span class="navitem">Source</span>
+        </div>
+
     </div>
 
   </body>
