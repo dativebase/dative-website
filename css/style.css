@@ -10,18 +10,25 @@ html
 
 body
 {
-  color: #4c3000;
+  color: #013033;
   margin: 0;
   padding: 0;
   position: relative;
   min-width: 975px;
-  background-color: #fff9e5;
+  background-color: #fdfff1;
   min-height: 100%;
 }
 
 a
 {
   text-decoration: none;
+  color: #038ce3;
+  font-weight: 400; 
+}
+
+#navbar a{
+  color: #ffffff;
+  font-weight: 200;
 }
 
 #content
@@ -43,7 +50,7 @@ a
 #innersidebar
 {
   display: table-cell;
-  background-color: #fff9e5;
+  background-color: #fdfff1;
   width: 275px;
   border-right: 1px solid #8e846b;
   padding-top: 3em;
@@ -78,7 +85,7 @@ div.sideitem:not(.on):hover
 
 div.major
 {
-  background: #817865 url("/images/ui-bg_gloss-wave_45_817865_500x100.png") 50% 50% repeat-x;
+  background: #020c69; /* #817865 url("../images/ui-bg_gloss-wave_45_817865_500x100.png") 50% 50% repeat-x; */
   color: white;
   margin-top: 1em;
 }
@@ -89,16 +96,20 @@ div.major
   width: 700px;
   max-width: 700px;
   padding: 3em;
+  background-color: #fff1b7;
 }
 
 #titlebar
 {
-  border-bottom: 1px solid #494437;
+  border-bottom: 1px solid #020c69;
 }
 
-#bottombar div
+#bottombar div, 
+#navbar div
 {
-  font-size: 20px;
+  font-size: 1.2em;
+  margin-left: 0.2em;
+  margin-right: 0.6em;
 }
 
 #bottombar
@@ -108,18 +119,20 @@ div.major
 
 #titlebar:hover,
 #titlebar div:hover,
-#bottombar div:hover
+#bottombar div:hover, 
+#navbar div:hover
 {
   cursor: pointer;
 }
 
-#titlebar,
+#titlebar, 
+#navbar, 
 #bottombar
 {
   padding: 0.75em;
-  height: 2em;
+  /* height: 7em;  */
   color: #ffffff;
-  background: #817865 url("/images/ui-bg_gloss-wave_45_817865_500x100.png") 50% 50% repeat-x;
+  background: #020c69; /* url("../images/ui-bg_gloss-wave_45_817865_500x100.png") 50% 50% repeat-x */ 
   text-align: center;
   margin: 0;
   width: 100%;
@@ -129,23 +142,14 @@ div.major
   z-index: 100;
 }
 
+#bottombar
+{
+  height: 2em;
+}
+
 span.navitem
 {
   padding: 0.5em;
-}
-
-#titlebar > div
-{
-  /*margin-left: auto;
-  margin-right: 15%;*/
-}
-
-#titlebar > div > div
-{
-  display: inline-block;
-  color: white;
-  padding: 1em;
-  font-size: 20px;
 }
 
 #titlebar div:hover
@@ -156,9 +160,11 @@ span.navitem
 #titlebar h1
 {
   letter-spacing: 3px;
-  font-weight: normal;
+  font-weight: 500;
   display: inline-block;
-  font-size: 40px;
+  font-size: 2.5em;
+  margin-top: 0.4em; 
+  margin-bottom: 0.3em; 
 }
 
 #logo > div > img
@@ -243,11 +249,12 @@ div.codehilite
   overflow-x: scroll;
   max-width: 90%;
   margin-bottom: 0.5em;
+  color: rgb(196, 232, 236);
 }
 
 div.faq-a
 {
-  color: rgb(0, 116, 199);
+  color: rgb(2, 12, 105);
   display: none;
   border: 1px solid rgb(101, 94, 78);
   background-color: rgb(255, 255, 255);
